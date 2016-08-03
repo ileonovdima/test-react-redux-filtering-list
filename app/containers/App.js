@@ -18,7 +18,7 @@ class App extends Component {
 
     return (
       <div className={styles.wrapper}>
-        <FilterPanel labels={labels} date={date} onLabelChange={this.onLabelChange.bind(this)} onDateChange={this.onDateChange.bind(this)} />
+        <FilterPanel labels={labels} date={date} onLabelChange={this.onLabelChange.bind(this)} onDateChange={this.onDateChange.bind(this)}/>
         <NewsList items={visibleNews} component={NewsItem} labels={labels}/>
       </div>
     )
@@ -43,7 +43,7 @@ function selectNews(news, labels, date) {
 
   return news.filter((item, index) => {
     return (activeLabels.every((label) => {
-      return item.labels.some((itemLabel) => itemLabel === label.id );
+      return item.labels.some((itemLabel) => itemLabel === label.id);
     }) && item.date === date);
   });
 
@@ -57,4 +57,4 @@ function select(state) {
   }
 }
 
-export default connect(select)(App)
+export default connect(select)(App);

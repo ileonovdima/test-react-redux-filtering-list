@@ -7,7 +7,7 @@ function ListItem(props) {
 
   const labelsContent = props.item.labels.map((item, index) => {
     itemLabel = props.labels.find((itemLabels) =>  itemLabels.id === item);
-    return <span className={styles.bordered}  key={`item-${index}`}> {itemLabel.title} </span>
+    return <span className={styles.bordered}  key={`item-${index}`}>{itemLabel.title}</span>
   });
 
   return (
