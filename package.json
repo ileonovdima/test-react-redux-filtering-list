@@ -1,0 +1,45 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "description": "calendar",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Dmitriy Leonov <ileonovdima@gmail.com> (vk.com/ileonovdima)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.6.2",
+    "react-hot-loader": "^1.3.0",
+    "redux-devtools": "^3.1.1",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1",
+    "autoprefixer-core": "^5.1.11",
+    "css-loader": "^0.15.1",
+    "ejs": "^2.3.1",
+    "extract-text-webpack-plugin": "^0.8.1",
+    "file-loader": "^0.8.4",
+    "gh-pages": "git://github.com/markdalgleish/gh-pages#cli-message",
+    "node-libs-browser": "^0.5.0",
+    "postcss-color-rebeccapurple": "^1.1.0",
+    "postcss-loader": "^0.4.3",
+    "raw-loader": "^0.5.1",
+    "react-to-html-webpack-plugin": "^2.2.0",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6"
+  },
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.6.0",
+    "redux": "^3.5.2"
+  }
+}
