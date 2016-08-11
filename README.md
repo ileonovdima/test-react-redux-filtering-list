@@ -2,6 +2,6 @@
 test-react-redux-filtering-list
 
 
-mpm install
+npm install
 
 npm start run
